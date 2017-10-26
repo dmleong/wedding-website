@@ -257,6 +257,10 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
 
+    .navbar-default.navbar-shrink .nav li a {
+      color: #fff;
+    }
+
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
@@ -655,6 +659,20 @@ section#venue {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+section#dogs {
+  text-align: center;
+  color: #000;
+  background-attachment: scroll;
+  background: url(../img/dogs.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 700px;
 }
 
 section#contact {

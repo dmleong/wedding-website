@@ -1,0 +1,77 @@
+{% include css/bootstrap.min.css %}
+{% include css/agency.css %}
+
+a {
+	text-decoration: underline;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.map {
+	height: 350px;
+	/*margin-left: 30px;*/
+}
+
+
+#cats img {
+	max-height: 300px;
+}
+
+#cats .col-md-4, #cats .col-md-6 {
+	margin-top: 20px;
+}
+
+.image-row {
+	margin-top: 20px;
+}
+
+#rsvp {
+	padding-top: 100px;
+}
+
+.header-img {
+	padding-bottom: 50px;
+}
+
+.container img {
+	max-width: 100%;
+}
+
+.container div.pic {
+	text-align: center;
+}
+.container .pic img {
+	width: 100%;
+	max-height: 500px;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+
+@media (max-width: 768px) {
+
+	header .intro-text .intro-heading {
+		font-size: 38px;
+	}
+	.map {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	[class*="col-"] {
+		margin-bottom: 15px;
+	}
+
+}
+
+section#venue {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e8e8e8;
+}
+section#venue h2 {
+	color: #fff;
+}
